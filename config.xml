@@ -21,4 +21,6 @@
 
     <gap:plugin name="org.apache.cordova.device" />
     
+    <access origin="*"/> 
+    
 </widget>

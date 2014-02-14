@@ -1,7 +1,7 @@
 var module1 = (
   function(module){
     module.go = function(result){
-      result.prepend(Date()+" - <br />");  
+      result.prepend(device.uuid;+" - <br />");  
     }
     return module;  
   }

@@ -9,6 +9,8 @@
   </head>
   <body>
     <button id="button1">GO!</button>
+    <button id="button2">GO2!</button>
+    
     <div id="results"></div>
     
     
@@ -16,6 +18,11 @@
       $("#button1").click(
         function(){
           module1.go($("#results"));  
+        }
+      ) 
+      $("#button2").click(
+        function(){
+          module1.go2($("#results"));  
         }
       ) 
      </script> 

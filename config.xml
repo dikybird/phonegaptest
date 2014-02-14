@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example"
-        versionCode = "10" 
+        id          = "com.phonegap.example" 
         version     = "1.0.0" >
 
     <!-- versionCode is optional and Android only -->
@@ -17,8 +16,10 @@
         Hardeep Shoker 
     </author>
 
+    <!--
     <preference name="phonegap-version" value="3.1.0" />
-
+    -->
+    
     <gap:plugin name="org.apache.cordova.device" />
     
 </widget>

@@ -2,7 +2,7 @@ var module1 = (
   function(module){
     module.go = function(result){
       try{
-        result.prepend(Date()+" "+ device.model+ + " <br />");  
+        result.prepend(Date()+" "+ " <br />");  
       }catch(e){
         result.prepend(e+" <br />");
       }

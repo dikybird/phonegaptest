@@ -5,11 +5,13 @@
   <meta name="generator" content="PSPad editor, www.pspad.com">
   <title></title>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="phonegap.js"></script>
     <script src="js/module1.js" type="text/javascript"></script>
   </head>
   <body>
     <button id="button1">GO!</button>
-        
+    <button id="button2">GO!</button>
+            
     <div id="results"></div>
     
     
@@ -19,7 +21,11 @@
           module1.go($("#results"));  
         }
       ) 
-
+      $("#button2").click(
+        function(){
+          module1.go2($("#results"));  
+        }
+      ) 
      </script> 
   </body>
 </html>
